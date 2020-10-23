@@ -14,5 +14,23 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('paginaInicial');
+});
+
+Route::get('/equiposNFL', function () {
+    return view('equiposNFL');
+});
+
+Route::get('/equiposAFC', function () {
+    return view('equiposAFC');
+});
+
+Route::get('/equiposNFC', function () {
+    return view('equiposNFC');
+});
+
+Route::get('datosEquipo/{nombre}', 'EquiposController@carga_equipo'); 
+
+Route::get('/test/{datosEquipo}', function ($nombre) {
+    return view('test', ['nombre' => $nombre]);
 });

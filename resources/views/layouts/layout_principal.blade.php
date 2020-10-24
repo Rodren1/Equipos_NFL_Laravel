@@ -5,6 +5,7 @@
 
     <script src="{{ asset('js/app.js') }}" defer></script>
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/fuente.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -16,15 +17,15 @@
                 <div class="navbar-nav">
                     <h3><b>|<br>|<br>|</b></h3>
                     <a class="nav-link active" href="{{ url('equiposNFL') }}">
-                        <h3 style="color: darkred;"><b>Equipos NFL</b></h3>
+                        <h3 class="fuenteNavbar"><b>Equipos NFL</b></h3>
                     </a>
                     <h3><b>|<br>|<br>|</b></h3>
                     <a class="nav-link active" href="{{ url('equiposAFC') }}">
-                        <h3 style="color: darkred;"><b>División American Football Conference</b></h3>
+                        <h3 class="fuenteNavbar"><b>División American Football Conference</b></h3>
                     </a>
                     <h3><b>|<br>|<br>|</b></h3>
                     <a class="nav-link active" href="{{ url('equiposNFC') }}">
-                        <h3 style="color: darkred;"><b>División National Football Conference</b></h3>
+                        <h3 class="fuenteNavbar"><b>División National Football Conference</b></h3>
                     </a>
                 </div>
             </div>

@@ -1,0 +1,20 @@
+.fuenteLetra{
+    line-height: 150%;
+    font-family:sans-serif;
+    font-size: large;
+    font-style: italic;
+}
+
+.parrafoInicio{
+    line-height: 150%;
+    font-family:sans-serif;
+    font-size: large;
+    font-style: italic;
+    color: black;
+}
+
+.fuenteNavbar{
+    font-family:sans-serif;
+    font-style: italic;
+    color: darkred;
+}

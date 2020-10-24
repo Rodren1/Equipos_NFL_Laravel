@@ -9,8 +9,10 @@
 <br>
 <div class="container" style="background-color: darkred;">
     <br><br>
-    <table class="table table-secondary">
-        <tbody>
+    <table class="table table-bordered table-secondary">
+        <tbody class="fuenteLetra">
+            <!--con el foreach cargo la vista de la consulta 
+            ($equipos es la tabla y $equipo la consulta del controller)-->
             @foreach($equipos as $equipo)
             <tr>
                 <th scope="row">Nombre del equipo</th>

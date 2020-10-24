@@ -17,7 +17,6 @@
                     <div class="card-body">
                         <a href="{{ url('datosEquipo', ['Buffalo Bills']) }}" class="btn btn-xs btn-secondary">
                             <h3>Buffalo Bills</h3>
-                            <a href="{{ url('api/test', ['Buffalo Bills']) }}" class="btn btn-xs btn-info pullright">test json</a>
                         </a>
                     </div>
                 </div>
@@ -39,7 +38,7 @@
                     <img src="{{ asset('img/AFC/patriots.png') }}" class="card-img-top" alt="..." height="250" width="250">
                     <div class="card-body">
                         <a href="{{ url('datosEquipo', ['New England Patriots']) }}" class="btn btn-xs btn-secondary">
-                            <h>New England Patriots</h>
+                            <h3>New England Patriots</h3>
                         </a>
                     </div>
                 </div>

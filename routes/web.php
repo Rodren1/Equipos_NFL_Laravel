@@ -30,7 +30,3 @@ Route::get('/equiposNFC', function () {
 });
 
 Route::get('datosEquipo/{nombre}', 'EquiposController@carga_equipo'); 
-
-Route::get('/test/{datosEquipo}', function ($nombre) {
-    return view('test', ['nombre' => $nombre]);
-});

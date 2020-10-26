@@ -17,7 +17,6 @@
                     <div class="card-body">
                         <a href="{{ url('datosEquipo', ['Buffalo Bills']) }}" class="btn btn-xs btn-secondary">
                             <h3>Buffalo Bills</h3>
-                            <a href="{{ url('api/test', ['Buffalo Bills']) }}" class="btn btn-xs btn-info pullright">test json</a>
                         </a>
                     </div>
                 </div>

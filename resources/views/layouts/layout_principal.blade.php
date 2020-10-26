@@ -10,7 +10,7 @@
 
 <body>
     @section('navbar')
-    <div class="container">
+    <div class="container bg-secondary">
         <nav class="navbar navbar-expand-lg navbar-secondary bg-secondary">
             <a class="navbar-brand logo" href="{{ url('/') }}"><img src="{{ asset('img/logoNFL.png')}}" alt="" width="90" height="90"></a>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
